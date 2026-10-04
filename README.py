@@ -124,13 +124,6 @@ class Reviewer(Mentor):
             return "Ошибка"
 
 
-# lecturer = Lecturer("Иван", "Иванов")
-# reviewer = Reviewer("Пётр", "Петров")
-# print(isinstance(lecturer, Mentor))
-# print(isinstance(reviewer, Mentor))
-# print(lecturer.courses_attached)
-# print(reviewer.courses_attached)
-
 student_1 = Student("Ivan", "Petrov")
 student_1.courses_in_progress = ["Python", "JavaScript"]
 
@@ -178,5 +171,4 @@ reviewer_2.grate_hw(student_1, "JavaScript", 7)
 
 all_student = [student_1, student_2]
 
-avg = Student.all_average_course(all_student, "Python")
-print(avg)
+all_lekturer = [lektrer_1, lektrer_2]
